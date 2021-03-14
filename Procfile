@@ -1,3 +1,1 @@
-web: gunicorn locallibrary.wsgi --log-file -
-web: python manage.py runserver 0.0.0.0:$PORT --noreload
-worker: python manage.py
+web: gunicorn mytestsite.wsgi --log-file -
